@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.container {
+  margin-top: 10rem;
+  width: 50vw;
+}
+
+.timer {
+  width: 100%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#timer {
+  font-size: 3rem;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-btn {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  margin: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+#reset-btn {
+  color: white;
+  background: rgb(27, 94, 251);
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+#reset-btn:hover {
+  background: rgb(75, 120, 224);
+}
+
+#reset-btn:active {
+  transform: scale(0.98);
+}
+
+.start-btn {
+  background-color: rgb(73, 149, 29);
+  padding: 1rem 2rem;
+}
+
+.start-btn:hover {
+  background-color: rgb(109, 199, 57);
+}
+
+.start-btn:active {
+  transform: scale(0.98);
+}
+
+.stop-btn {
+  padding: 1rem 1.7rem;
+  background-color: rgb(207, 33, 33);
+}
+
+.stop-btn:hover {
+  background-color: rgb(224, 53, 53);
+}
+
+.stop-btn:active {
+  transform: scale(0.98);
+}
